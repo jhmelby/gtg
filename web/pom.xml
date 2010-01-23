@@ -16,12 +16,16 @@
 
 
     <properties>
-
         <!-- convenience to define GWT version in one place -->
-        <gwt.version>1.7.1</gwt.version>
+        <gwt.version>2.0.0</gwt.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>no.netlight.gotogate</groupId>
+            <artifactId>integration</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <!--  GWT dependencies (from central repo) -->
         <dependency>
